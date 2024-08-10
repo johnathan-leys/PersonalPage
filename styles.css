@@ -1,0 +1,106 @@
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2c3e50;
+  padding: 2rem 0;
+  text-align: center;
+}
+header .name {
+  color: #ffffff !important;
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+main section {
+  margin-bottom: 3rem;
+}
+main section h2 {
+  color: #3498db;
+}
+main section ul {
+  list-style-type: none;
+  padding: 0;
+}
+main section ul li {
+  margin-bottom: 1rem;
+}
+
+.book-review {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.book-review .book-cover {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.book-review .book-title {
+  color: #3498db;
+  margin: 2px 0;
+  text-align: center;
+}
+.book-review .review-date {
+  color: #333;
+  font-style: italic;
+  margin: 2px 0;
+}
+.book-review .review-text {
+  text-align: justify;
+  margin-top: 2px;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+#contact {
+  text-align: center;
+}
+#contact .email-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+#contact .email-link:hover {
+  background-color: #217dbb;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}/*# sourceMappingURL=styles.css.map */
