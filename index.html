@@ -3,36 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Page - Under Development</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-        }
-        .container {
-            text-align: center;
-            padding: 20px;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
-        }
-    </style>
+    <title>Jack Leys - Personal Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
 </head>
 <body>
-    <div class="container">
-        <h1>Personal Page</h1>
-        <p>This site is currently under development. Please check back soon!</p>
-    </div>
+    <header>
+        <h1 class="name">Jack Leys</h1>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome to my personal page. I am currently 22 years old working as a software integration engineer in the Detroit Metropolitan Area.
+                 Here, you can find personal and professional information about me as well as whatever else I decide is relevant to the page.
+            </p>
+        </section>
+
+        <section id="professional">
+            <h2>Professional Details</h2>
+            <p>
+                I am currently working for General Motors as a Fuel Cell Software Integration Engineer. I primarily work on the fuel cell controller 
+                for GM's <a href="https://www.gmhydrotec.com/product/public/us/en/hydrotec/Home.html#beginning">HYDROTEC</a>. This is my first rotation in 
+                GM's rotational TRACK program, where I will have 2 rotations each a year long before deciding on a permanant role with the company.
+            </p>
+            <p>
+                Prior to this role, I have interned at PURVIS Systems, naval defense contractor located in RI, and at Jacobs Solutions. I started at PURVIS while still in high school and continued working there
+                for 4 years while attedning the University of Maine. I then interned at Jacobs to experience a larger company and living in a city. At UMaine, I studied Computer Engineering and focused on embedded systems.
+            </p>
+        </section>
+
+        <section id="personal">
+            <h2>Personal Life</h2>
+            <p>
+                In my free time, I enjoy sailing (although since moving to MI there has been less of that) and weightlifing. It is a long-term goal of mine to compete in an amateur powerlifting and bodybuilding competition.
+                I also enjoy reading a variety of books, and sometimes write short reviews of books I have recently read, which are available <a href="reviews.html">here</a>.
+
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me at:</p>
+            <a href="mailto:jackal92591@gmail.com" class="email-link">jackal92591@gmail.com</a>
+            <p>
+            <a href="https://www.linkedin.com/in/johnathan-leys-532998190/" target="_blank" rel="noopener noreferrer" id="linkedinLink">
+                <img src="img/IN.png" alt="LinkedIn" width="24" height="24">
+            </a>
+            <a href="https://www.linkedin.com/in/johnathan-leys-532998190/"> LinkedIn</a>
+            </p>
+            
+        </section>
+    </main>
+
+    
+    <footer id="lastUpdated">
+        Last updated: <span id="updateDate"></span>
+    </footer>
+    
 </body>
 </html>
