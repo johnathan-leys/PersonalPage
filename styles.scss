@@ -4,11 +4,12 @@ $secondary-color: #2c3e50;
 $text-color: #333;
 $background-color: #f4f4f4;
 $date-color: $text-color;
-$main-font: Arial, sans-serif;
+$main-font: 'Open Sans', Arial, sans-serif;
+$title-font: 'Open Sans Semibold', Arial, sans-serif;
 
 // Global styles
 body {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: $main-font;
     line-height: 1.6;
     color: $text-color;
     background-color: $background-color;
@@ -23,6 +24,7 @@ header {
     background-color: $secondary-color;
     padding: 2rem 0;
     text-align: center;
+    font-family: $title-font;
     
     .name {
         color: #ffffff !important; // Using !important to override any potential conflicting styles
@@ -45,6 +47,7 @@ main {
         margin-bottom: 3rem;
 
         h2 {
+            font-family: $title-font;
             color: $primary-color;
         }
 
@@ -77,6 +80,7 @@ main {
     }
 
     .book-title {
+        font-family: $title-font;
         color: $primary-color;
         margin: 2px 0;
         text-align: center;

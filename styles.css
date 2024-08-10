@@ -11,6 +11,7 @@ header {
   background-color: #2c3e50;
   padding: 2rem 0;
   text-align: center;
+  font-family: "Open Sans Semibold", Arial, sans-serif;
 }
 header .name {
   color: #ffffff !important;
@@ -31,6 +32,7 @@ main section {
   margin-bottom: 3rem;
 }
 main section h2 {
+  font-family: "Open Sans Semibold", Arial, sans-serif;
   color: #3498db;
 }
 main section ul {
@@ -58,6 +60,7 @@ main section ul li {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .book-review .book-title {
+  font-family: "Open Sans Semibold", Arial, sans-serif;
   color: #3498db;
   margin: 2px 0;
   text-align: center;
